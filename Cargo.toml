@@ -1,5 +1,9 @@
 [workspace]
-members = []
+members = [
+
+"deps/gnostr-cat"
+
+]
 
 
 [profile.release]
