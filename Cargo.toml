@@ -1,10 +1,15 @@
 [workspace]
+resolver = "2"
 members = [
 
-"deps/gnostr-cat"
+"deps/gnostr-cat",
+"deps/gnostr-cli",
+"deps/gnostr-command",
+"deps/gnostr-grep",
+"deps/gnostr-legit",
+"deps/gnostr-sha256",
 
 ]
-
 
 [profile.release]
 debug = true
