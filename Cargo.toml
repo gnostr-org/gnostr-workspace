@@ -9,6 +9,7 @@ members = [
 "deps/gnostr-legit",
 "deps/gnostr-sha256",
 
+## "deps/gnostr-gossip",
 ]
 
 [profile.release]
