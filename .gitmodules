@@ -27,6 +27,6 @@
 	url = https://github.com/gnostr-org/gnostr-gossip.git
 	ignore = dirty
 [submodule "deps/gnostr-relay"]
-	path = deps/deps/gnostr-relay
+	path = deps/gnostr-relay
 	url = https://github.com/gnostr-org/gnostr-relay.git
 	ignore = dirty
