@@ -90,6 +90,12 @@ rustup-install:## 	rustup-install
 	$(shell echo which rustup) && rustup default nightly
 
 
+.PHONY:submodules
+submodules:
+	@git submodule update --init --recursive
+
+
+
 cargo-build:## 	cargo-build
 	@type -P rustc || $(MAKE) rustup-install
 	cargo b
