@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+for deps in  deps/* ; do
+    echo "the next file is $deps"
+    cargo install --path $deps
+done
