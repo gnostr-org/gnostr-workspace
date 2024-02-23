@@ -3,14 +3,13 @@ resolver = "2"
 members = [
 
 "deps/gnostr-cat",
-"deps/gnostr-cli",
 "deps/gnostr-command",
 "deps/gnostr-grep",
-"deps/gnostr-legit",
 "deps/gnostr-sha256",
 
-## "deps/gnostr-gossip",
 ]
+
+exclude = ["deps/gnostr-cli", "deps/gnostr-legit", "deps/gnostr-gossip"]
 
 [profile.release]
 debug = true
